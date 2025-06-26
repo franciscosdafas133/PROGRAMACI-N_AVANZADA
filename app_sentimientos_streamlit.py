@@ -11,7 +11,7 @@ st.title("🧬 Análisis Geolocalizado de Sentimientos sobre Vacunas COVID-19 (2
 # --- Cargar datos ---
 @st.cache_data
 def cargar_datos():
-    df = pd.read_csv("tweets_con_sentimiento_y_score_nuevo.csv")
+    df = pd.read_csv("C:/Users/franc/Music/definitivo/tweets_con_sentimiento_y_score_nuevo.csv")
     df = df.rename(columns={
         "sentimiento": "Sentimiento",
         "sentimiento_score": "Score",
